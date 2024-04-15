@@ -1,0 +1,4 @@
+import storage
+import os
+storage.remount("/", False)
+os.remove("/boot.py")
